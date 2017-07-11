@@ -6,7 +6,7 @@ The first notebook entitled **1_Retrieve_And_Preprocess_Data.ipynb** shows how t
 
 The second notebook entitled **2_Train_Test_Split.ipynb** splits the raw data into training and test sets. These too are saved to HDF5. This is not necessarily required for a true online learning pipeline.
 
-The third notebook entitled **3_Create_Multiple_Files_For_Iterating.ipynb** is not actually part of the pipeline. I merely breaks the training dataset created in the second notebook into multiple files. The point of this exerise is to show Dask's ability to handle multiple files with ease using wild card searches.
+The third notebook entitled **3_Create_Multiple_Files_For_Iterating.ipynb** is not actually part of the pipeline. I merely show how to break the training dataset created in the second notebook into multiple files. The point of this exerise is to later show Dask's ability to handle multiple files with ease using wild card searches.
 
 The fourth notebook entitled **4_Exploratory_Data_Analysis.ipynb** is merely included for those wanting more detail about the Higgs dataset. Basic EDA is provided. This too is not required for a true online learning pipeline, though outliers and missing values would surely cause problems.
 
@@ -14,4 +14,4 @@ The fifth notebook entitled **5_Online_Learning.ipynb** is the most interesting.
 
 ---
 
-I hope you find something useful here and if you find mistakes please let me know.
+I hope you find something useful here and if you discover any mistakes please let me know.
